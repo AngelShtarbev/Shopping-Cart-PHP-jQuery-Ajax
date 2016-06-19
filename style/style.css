@@ -1,0 +1,224 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: url(backgrounds/bat4_back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#desc {
+    color:black;
+    font-size: 18px;
+}
+
+.modal-header, #h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+.modal-body {
+    padding:40px 50px;
+}
+
+#buttonClose {
+    padding: 20px 10px 10px 10px;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.thumbnail img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+    background-color: transparent;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#copyright {
+    color:#1ab2ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#company {
+    margin-right: 80px;
+    font-size: 15px;
+}
+
+#games {
+    background: rgba(80, 117, 157, 0.5);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-item {
+    padding: 0px;
+}
+
+/*Shopping Cart Style*/
+.cart-box {
+    display: block;
+    width: 30px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.32);
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.shopping-cart-box{
+    text-align: left;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 450px;
+    color: #FFD5D5;
+    background: #FA1C5F;
+    border-radius: 4px;
+    padding: 10px;
+    font: small Verdana, Geneva, sans-serif;
+    margin-top: 10px;
+    display:none;
+}
+.shopping-cart-box a{
+    color: #FFD5D5;
+    text-decoration:none;
+}
+
+#shopping-cart-results a:hover {
+    color: #3399ff;
+}
+
+.shopping-cart-box a:hover {
+    color: #3399ff;
+}
+.shopping-cart-box:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid rgba(255, 0, 97, 1);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+.shopping-cart-box ul.cart-products-loaded{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.shopping-cart-box .close-shopping-cart-box{
+    float: right;
+}
+#shopping-cart-results ul.cart-products-loaded li{
+    background: #ED0C50;
+    margin-bottom: 1px;
+    padding: 6px 4px 6px 10px;
+}
+.shopping-cart-box .remove-item{
+    float:right;
+    text-decoration:none;
+}
+.shopping-cart-box .cart-products-total{
+    font-weight: bold;
+    text-align: right;
+    padding: 5px 0px 0px 5px;
+}
+.shopping-cart-box h3{
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+}
+
+ul.view-cart {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 15px 15px 15px 25px;
+    list-style: none;
+}
+
+ul.view-cart {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 15px 15px 15px 25px;
+    list-style: none;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+}
+ul.view-cart li span{
+    float: right;
+}
+ul.view-cart li.view-cart-total{
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: right;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*Shopping Cart Style*/

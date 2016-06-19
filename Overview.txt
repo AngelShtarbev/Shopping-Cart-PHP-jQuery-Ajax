@@ -1,0 +1,2 @@
+This is a simple shopping cart built with PHP & jQuery.
+The backend of the application is the PHP script which collects and processes all the data sent asynchronouslly by the jQuery AJAX functions.
